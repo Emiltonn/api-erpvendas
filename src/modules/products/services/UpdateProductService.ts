@@ -11,7 +11,6 @@ interface IRequest {
 }
 
 class UpdateProductService {
-  // eslint-disable-next-line prettier/prettier
   public async execute({
     id,
     name,

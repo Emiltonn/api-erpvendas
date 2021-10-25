@@ -8,7 +8,6 @@ interface IRequest {
 }
 
 class DeleteProductService {
-  // eslint-disable-next-line prettier/prettier
   public async execute({ id }: IRequest): Promise<Product> {
     const productsRepository = getCustomRepository(ProductRepository);
 
